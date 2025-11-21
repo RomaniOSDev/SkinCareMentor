@@ -33,6 +33,9 @@
 		74DFB24A2ED0E11C004CFB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DFB2292ED0E11C004CFB78 /* Assets.xcassets */; };
 		74DFB24C2ED0E11C004CFB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DFB22D2ED0E11C004CFB78 /* LaunchScreen.storyboard */; };
 		74DFB24D2ED0E11C004CFB78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74DFB22F2ED0E11C004CFB78 /* Main.storyboard */; };
+		74DFB2522ED0E158004CFB78 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DFB2502ED0E158004CFB78 /* LoaderViewController.swift */; };
+		74DFB2532ED0E158004CFB78 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DFB24F2ED0E158004CFB78 /* InternetViewController.swift */; };
+		74DFB2542ED0E158004CFB78 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DFB24E2ED0E158004CFB78 /* CheckLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,9 @@
 		74DFB22E2ED0E11C004CFB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74DFB2302ED0E11C004CFB78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74DFB2312ED0E11C004CFB78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74DFB24E2ED0E158004CFB78 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74DFB24F2ED0E158004CFB78 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74DFB2502ED0E158004CFB78 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		8AFC23B2A90810337A565BC0 /* Pods_SkinCareMentor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkinCareMentor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1CFE14F54CB469866F3EE40 /* Pods-SkinCareMentor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinCareMentor.release.xcconfig"; path = "Target Support Files/Pods-SkinCareMentor/Pods-SkinCareMentor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,6 +163,7 @@
 				74DFB2242ED0E11C004CFB78 /* ProfileView.swift */,
 				74DFB2252ED0E11C004CFB78 /* RoutineView.swift */,
 				74DFB2262ED0E11C004CFB78 /* SkinDiaryView.swift */,
+				74DFB2512ED0E158004CFB78 /* LoadingView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +186,16 @@
 				74DFB2312ED0E11C004CFB78 /* ViewController.swift */,
 			);
 			path = SkinCareMentor;
+			sourceTree = "<group>";
+		};
+		74DFB2512ED0E158004CFB78 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74DFB24E2ED0E158004CFB78 /* CheckLink.swift */,
+				74DFB24F2ED0E158004CFB78 /* InternetViewController.swift */,
+				74DFB2502ED0E158004CFB78 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		98B270B34AC1FE27D16F1C0B /* Frameworks */ = {
@@ -302,6 +319,9 @@
 				74DFB2402ED0E11C004CFB78 /* KnowledgeBaseView.swift in Sources */,
 				74DFB2412ED0E11C004CFB78 /* MainDashboardView.swift in Sources */,
 				74DFB2422ED0E11C004CFB78 /* OnboardingView.swift in Sources */,
+				74DFB2522ED0E158004CFB78 /* LoaderViewController.swift in Sources */,
+				74DFB2532ED0E158004CFB78 /* InternetViewController.swift in Sources */,
+				74DFB2542ED0E158004CFB78 /* CheckLink.swift in Sources */,
 				74DFB2432ED0E11C004CFB78 /* ProfileView.swift in Sources */,
 				74DFB2442ED0E11C004CFB78 /* RoutineView.swift in Sources */,
 				74DFB2452ED0E11C004CFB78 /* SkinDiaryView.swift in Sources */,
